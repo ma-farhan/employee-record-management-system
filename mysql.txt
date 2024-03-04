@@ -1,0 +1,12 @@
+# mysql queries to add onto mysql workbench
+
+create database db5;
+use db5;
+create table users(
+ID integer auto_increment primary key,
+NAME varchar(50),
+AGE integer,
+SALARY varchar(50)
+);
+insert into users(NAME,AGE,SALARY) VALUES ("ANU",12,3000);
+select * from users;
